@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+}
+#head1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 80px;
+    font-style: normal;
+    color: #03396c;
+}
+.container{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6d1d9;
+}
+#add-button{
+    margin-left: 120px;
+}
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #A1EAF2;
+   
+}
+
+h1{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 50px;
+}
+.bill-box{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align:center;
+    font-size:36px;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container-bill{
+    width: 80%;
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #e7eff6;
+}
+.border{
+    border: black solid 1px;
+    padding : 20px;
+    border-radius: 10px;
+}
+input{
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: #e7eff6;
+}
+h3{
+    margin: 5px 0;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+}
+table td,table th{
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #000000;
+}
+
+#prnt-button{
+    width:100px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.print-section{
+    display: flex;
+    justify-content: center;
+}
+#head2{
+    text-align: end;
+}
+#to{
+    font-size: large;
+    font-style: bold;
+}
+#table{
+    border-radius: 10px ;
+}
+fieldset {
+    display: inline-block;
+  }
+fieldset input[type="text"], fieldset button {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+button{
+    border-radius: 10px;
+    padding:10px;
+    border: none;
+    background-color: #009688;
+    color: #ffffff;
+}
+.details{
+    font-weight: lighter;
+}
