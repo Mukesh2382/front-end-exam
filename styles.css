@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Tilt Neon', cursive;
 }
 #head1{
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto Slab', serif;
     font-size: 80px;
     font-style: normal;
-    color: #03396c;
+    color: #e3fa35;
 }
 .container{
     border-radius: 20px;
@@ -26,7 +28,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #A1EAF2;
+    background: rgb(55,55,56);
+    background: linear-gradient(352deg, rgba(55,55,56,1) 0%, rgba(145,151,255,1) 100%);
    
 }
 
@@ -40,7 +43,7 @@ h1{
     justify-content: center;
 }
 h2{
-    text-align:center;
+    
     font-size:36px;
 }
 .container-fluid{
@@ -123,4 +126,23 @@ button{
 }
 .details{
     font-weight: lighter;
+}
+img{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.header{
+    display: flex;
+}
+.logo{
+    flex:0 0 20%;
+}
+.text{
+    flex: 0 0 80%;
+    padding-left: 6.2 rem;
+}
+.logoimg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
