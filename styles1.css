@@ -36,7 +36,7 @@ li a{
     text-decoration: none;
 }
 .content{
-    background-image:url("/Calculator.jpeg");
+    background-image:url("Calculator.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
