@@ -41,7 +41,6 @@ document.getElementById("add-button").addEventListener("click", function() {
         document.getElementById("iquantity").value = "";
         document.getElementById("irate").value = "";
     }
-    
 });
 
 function showBill() {
@@ -53,3 +52,7 @@ btn.addEventListener("click", function() {
     let element = document.getElementsByClassName("bill-box");
     html2pdf().from(element[0]).save();
 });
+
+function redirect(){
+    window.location.href = "billease.html";
+}

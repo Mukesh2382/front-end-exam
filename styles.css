@@ -21,6 +21,7 @@
 }
 #add-button{
     margin-left: 120px;
+    cursor: pointer;
 }
 body{
     margin:0;
@@ -43,7 +44,6 @@ h1{
     justify-content: center;
 }
 h2{
-    
     font-size:36px;
 }
 .container-fluid{
@@ -51,6 +51,7 @@ h2{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .container-bill{
     width: 80%;
@@ -94,6 +95,7 @@ table td,table th{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 .print-section{
     display: flex;
@@ -139,10 +141,15 @@ img{
 }
 .text{
     flex: 0 0 80%;
-    padding-left: 6.2 rem;
+    padding-left: 25%;
 }
 .logoimg{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+}
+.logoimg img{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }

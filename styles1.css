@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+    margin:0%;
+}
 .header{
+    display: flex;
+    padding: 20px; 
+    align-items: center;
+    background-color: rgb(191, 174, 252);
+}
+.logo{
+    background-color: oldlace;
+    padding: 10px;
+    border-radius: 15px;
+}
+.list{
+width: 80%;
+display:flex;
+justify-content: center;
+list-style: none;
+align-items: center;
+margin-left: 400px;
+font-size: 30px;
+}
+.list li{
+    padding: 10px;
+    margin-left: 10px;
+    justify-content: center;
+   
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.content{
+    background-image:url("/Calculator.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.text-content{
+    margin-left: 60%;
+    padding: 20px;
+    font-size: 70px;
     
+}
+.opaque{
+    margin-top: 20px;
+    background-color: #ffffff90;
+    padding: 20px;
+}
+.intro{
+    font-size: 35px;
+}
+.rounded-image{
+    border-radius: 20px;
+}
+.tryout{
+    padding: 20px 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fbf7d5;
+}
+.tryout p{
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.try-btn{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(58, 58, 224);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
 }
