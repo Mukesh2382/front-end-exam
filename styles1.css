@@ -84,3 +84,9 @@ li a{
     border: none;
     cursor: pointer;
 }
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgb(191, 174, 252);
+}
